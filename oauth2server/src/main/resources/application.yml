@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/my_cloud?characterEncoding=utf8&userSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+  security:
+    user:
+      name: root
+      password: root
